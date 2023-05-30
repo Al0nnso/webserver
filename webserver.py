@@ -7,10 +7,6 @@ import SimpleHTTPServer
 FILE = 'frontend.html'
 PORT = 8080
 
-# DADOS PARA TESTE
-# EMAIL = admin@mastersistems.com
-# SENHA = admin329h%sa
-
 class TestHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
     """The test example handler."""
 
