@@ -1,13 +1,3 @@
-#-------------------------------------------------------------------------------
-# Name:        webserver
-# Purpose:
-#
-# Author:      jduyon
-#
-# Created:     29/04/2014
-# Copyright:   (c) jduyon 2014
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
 
 import threading
 import webbrowser
@@ -17,6 +7,9 @@ import SimpleHTTPServer
 FILE = 'frontend.html'
 PORT = 8080
 
+# DADOS PARA TESTE
+# EMAIL = admin@mastersistems.com
+# SENHA = admin329h%sa
 
 class TestHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
     """The test example handler."""
